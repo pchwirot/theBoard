@@ -1,0 +1,71 @@
+/system/workplace/editors/tinymce/plugins/ic-cleanup/
+
+usunac LoginBanner 
+przeniesc zawartosc do Banner
+podmienic w szbolonie LoginBanner na banner
+zmienic wersje
+
+
+/sites/transakcyjny-mobile/1140/240.html	 link=http://www.m.mbank.pl/blog/post,1396.html; title=Wskaźnik salda i inne nowości w bankowości mobilnej; target=_self;
+/sites/transakcyjny-mobile/1140/320.html	 link=http://www.m.mbank.pl/blog/post,1396.html; title=Wskaźnik salda i inne nowości w bankowości mobilnej; target=_self;
+/sites/transakcyjny-mobile/1140/480.html	 link=http://www.m.mbank.pl/blog/post,1396.html; title=Wskaźnik salda i inne nowości w bankowości mobilnej; target=_self;
+/sites/transakcyjny-mobile/6210/240.html	 link=http://www.mbank.cz/mobil/banner-landing-page/index.html; title=Cestovní pojištění
+/sites/transakcyjny-mobile/6210/320.html	 link=http://www.mbank.cz/mobil/banner-landing-page/index.html; title=Cestovní pojištění
+/sites/transakcyjny-mobile/6210/480.html	 link=http://www.mbank.cz/mobil/banner-landing-page/index.html; title=Cestovní pojištění
+/sites/transakcyjny-mobile/8360/240.html	 link=http://www.mbank.sk/sprievodca/mobil-banking/light/hypoteka.html
+/sites/transakcyjny-mobile/8360/320.html	 link=http://www.mbank.sk/sprievodca/mobil-banking/light/hypoteka.html
+/sites/transakcyjny-mobile/8360/480.html	 link=http://www.mbank.sk/sprievodca/mobil-banking/light/hypoteka.html
+
+<szukac w roocie (/)>
+/system/modules/transakcyjny-mobile.site/templates/login.jsp
+
+
+
+
+
+gemius
+/sites/transakcyjny-mobile/8360/240.html	 10aadi7_W6.M9Gjmv5Iz0acVP_zsN3tAQKgS0Prk_vj.z7
+/sites/transakcyjny-mobile/8360/320.html	 bPqaeMeOW9e4sc91DBBmatVr3_MZgrsPT1DCix6y8xj.R7
+/sites/transakcyjny-mobile/8360/480.html	 10Y6Fi7_S5_CI58PT1Muzqe1P6LsR3tECh.yxFhR45n.L7
+
+
+googleanalytics_code
+/sites/transakcyjny-mobile/8360/240.html	 UA-3070286-1
+/sites/transakcyjny-mobile/8360/320.html	 UA-3070286-1
+/sites/transakcyjny-mobile/8360/480.html	 UA-3070286-1
+/sites/transakcyjny-mobile/multi/1140/240.html	 UA-1229583-1
+/sites/transakcyjny-mobile/multi/1140/320.html	 UA-1229583-1
+/sites/transakcyjny-mobile/multi/1140/480.html	 UA-1229583-1
+
+
+
+/system/modules/transakcyjny.site/templates/login.jsp
+/system/modules/transakcyjny.site/templates/login.jsp
+
+
+
+/sites/transakcyjny-mobile/1140/240.html     link=http://www.m.mbank.pl/blog/post,1396.html; title=Wskaźnik salda i inne nowości w bankowości mobilnej; target=_self;
+/sites/transakcyjny-mobile/1140/320.html	 link=http://www.m.mbank.pl/blog/post,1396.html; title=Wskaźnik salda i inne nowości w bankowości mobilnej; target=_self;
+/sites/transakcyjny-mobile/1140/480.html	 link=http://www.m.mbank.pl/blog/post,1396.html; title=Wskaźnik salda i inne nowości w bankowości mobilnej; target=_self;
+/sites/transakcyjny-mobile/6210/240.html	 link=http://www.mbank.cz/mobil/banner-landing-page/index.html; title=Cestovní pojištění
+/sites/transakcyjny-mobile/6210/320.html	 link=http://www.mbank.cz/mobil/banner-landing-page/index.html; title=Cestovní pojištění
+/sites/transakcyjny-mobile/6210/480.html	 link=http://www.mbank.cz/mobil/banner-landing-page/index.html; title=Cestovní pojištění
+/sites/transakcyjny-mobile/8360/240.html	 link=http://www.mbank.sk/sprievodca/mobil-banking/light/hypoteka.html
+/sites/transakcyjny-mobile/8360/320.html	 link=http://www.mbank.sk/sprievodca/mobil-banking/light/hypoteka.html
+/sites/transakcyjny-mobile/8360/480.html	 link=http://www.mbank.sk/sprievodca/mobil-banking/light/hypoteka.html
+
+/sites/transakcyjny/logon/1140.html	 link=http://www.mbank.pl/kampanie/login_ib.html; title=mBank market
+/sites/transakcyjny/logon/6210.html	 link=http://www.mbank.cz/osobni/mpujcka/; title=Půjčka plus za 0Kč
+/sites/transakcyjny/logon/8360.html	 link=http://www.mbank.sk/kampane/login/1.html/
+/sites/transakcyjny/logon/8360.txt	 link=http://mbank.sk/individualni/mkreditka//; window=_blank; title=Zlaté mince pre mBank
+/sites/transakcyjny/logon/~1140.html	 link=http://www.mbank.pl/kampanie/login_ib.html; title=mBank market
+
+/sites/transakcyjny/mtransfer/1140.html	 link=http://mbank.pl/kampanie/login_mtransfer.html; window=_blank; title=mBank market
+/sites/transakcyjny/mtransfer/6210.html	 link=http://www.mbank.cz/kampan/log-in/mhypoteka.html/; title=mHypotéka
+/sites/transakcyjny/mtransfer/8360.html	 link=http://www.mbank.sk/kampane/login/1.html/
+
+/sites/transakcyjny/nm_logon/logon.html	 link=http://www.mbank.pl/kampanie/login_ib.html; title=mBank - Pakiet do eKONTA
+
+/sites/transakcyjny/uw_logon/1140.html	 link=http://www.mbank.pl/kampanie/login_uw.html; title=mBank market
+/sites/transakcyjny/uw_logon/6210.html	 link=http://www.mbank.cz/akce-a-souteze/pojisteni-direct/; title=Pojištění od pojišťovny Direct
+/sites/transakcyjny/uw_logon/8360.html  link=http://www.mbank.sk/kampane/login/1.html/

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>the board</title>
+  	<script src="js/lib/jquery-1.9.1.js" type="text/javascript"></script>
+  	<script src="js/lib/jquery-ui.js" type="text/javascript"></script>
+  	<script src="js/lib/jpicker-1.1.6.js" type="text/javascript"></script>
+	<script src="js/dbConnetction.js" type="text/javascript"></script>
+    <script src="js/Main.js" type="text/javascript"></script>    
+    
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" media="screen" type="text/css" href="css/jPicker-1.1.6.min.css" />
+	<link rel="stylesheet" href="css/styles.css">	
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: {
+                families: ['Denk+One::latin']
+            }
+        };
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })(); 
+    </script>
+</head>
+<body>
+    <header>
+        <h1 class="orange">The Board</h1>
+    </header>
+	<div id="wrap">
+       
+		<div id="workspace"></div>
+		<div id="menu" class="optionsBG">
+			<div>
+				<p>Board dimension</p>
+				<div>
+                    <label for"workspaceWidth" class="dimLabel">Width</label>
+					<input type="text" id="workspaceWidth" name="workspaceWidth" value="900" class="dimInput">
+				</div>
+				<div>
+    				<label for"workspaceHeight" class="dimLabel">Height</label>
+                    <input type="text" id="workspaceHeight" name="workspaceHeight" value="900" class="dimInput">
+				</div>
+                <div class="setBoardBtn">
+                    <button id="setBoard" class="optionsButton">Set</button>    
+                </div>
+                
+				<div>
+                    <label for"workspaceHeight">Collor</label>
+					<input type="text" id="workspaceBG" name="workspaceHeight" value="00000	">
+				</div>
+
+			</div>
+
+			<div>
+            <div class="options menuOptionBar">O<br>P<br>T<br>I<br>O<br>N<br>S</div>
+				<textarea id="addNoteValue" name="addNoteValue"></textarea>
+                <div class="addNoteBtn">
+                    <button id="addNote" class="optionsButton">Add note</button>    
+                </div>
+			</div>
+			<div>
+				<button id="loadData" class="optionsButton">Load</button><button id="saveData" class="optionsButton">Save</button>
+			</div>
+			<div>
+				<button id="clearSavedData" class="optionsButton">Clear saved data</button>
+			</div>
+            <div>
+                <!--<button id="getDataFromDB">Zaaduj z bazy (test)</button>-->
+            </div>
+            <div>
+                <button id="sortNotes" class="optionsButton">Sort notes</button>
+            </div>
+			<div class="loger">
+				<textarea id="logArea"> </textarea>
+			</div>
+		</div>
+         <div class="helpBoxContainer optionsBG">
+            <div class="helpBox"></div>
+            <div class="helpBoxRightBar menuOptionBar">H<br>E<br>L<br>P</div>            
+        </div>
+        
+	</div>
+    <footer class="orange">
+        <a href="http://www.freakdesign.com.pl/">&copy; www.freakdesign.com.pl</a>
+    </footer>
+</body>
+</html>
